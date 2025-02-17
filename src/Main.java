@@ -18,5 +18,8 @@ public class Main {
 
         System.out.println("Infissi:");
         vettoreInfissi.visualizza();
+
+
+        System.out.println(vettoreInfissi.ricerca(infisso2));
     }
 }

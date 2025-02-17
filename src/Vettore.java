@@ -21,4 +21,13 @@ public class Vettore<T> {
             System.out.println(elementi[i]);
         }
     }
+
+    public int ricerca(T elemento) {
+        for (int i = 0; i < count; i++) {
+            if (elementi[i].equals(elemento)) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
